@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EE2022315B5BEA5DB6C0FBB /* Pods_rvftimeIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048D496CCE999661426FFDA1 /* Pods_rvftimeIOS.framework */; };
 		380A2E591C823CA2007B8BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A2E581C823CA2007B8BCB /* AppDelegate.swift */; };
 		380A2E601C823CA2007B8BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380A2E5E1C823CA2007B8BCB /* Main.storyboard */; };
 		380A2E621C823CA2007B8BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380A2E611C823CA2007B8BCB /* Assets.xcassets */; };
@@ -17,6 +16,10 @@
 		384E1F941C85AA60009B8A93 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384E1F931C85AA60009B8A93 /* SettingsController.swift */; };
 		38F5F1771C828422007568EC /* MessageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F5F1761C828422007568EC /* MessageListController.swift */; };
 		38F5F17B1C82B4E3007568EC /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F5F17A1C82B4E3007568EC /* DetailTableViewController.swift */; };
+		595FE6F21FC59B0FE4302214 /* Pods_rvftimeIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DE184B707357F101036497 /* Pods_rvftimeIOSTests.framework */; };
+		84FB1A6B1E34CE0200F2E515 /* SummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB1A6A1E34CE0200F2E515 /* SummaryVC.swift */; };
+		A56D666372C49D91DDA9F115 /* Pods_rvftimeIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D469D839193A5D28140E9E0D /* Pods_rvftimeIOSUITests.framework */; };
+		AB9339D4A56A2C976D65063E /* Pods_rvftimeIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B9CBCDD3D3B78A26FE5CBA /* Pods_rvftimeIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		048D496CCE999661426FFDA1 /* Pods_rvftimeIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rvftimeIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B9CBCDD3D3B78A26FE5CBA /* Pods_rvftimeIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rvftimeIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5B704615114FA196232F18 /* Pods-rvftimeIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rvftimeIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rvftimeIOSTests/Pods-rvftimeIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		10DE184B707357F101036497 /* Pods_rvftimeIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rvftimeIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8D96A421C0E0804EA5FBD2 /* Pods-rvftimeIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rvftimeIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rvftimeIOS/Pods-rvftimeIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		380A2E551C823CA2007B8BCB /* rvftimeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rvftimeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		380A2E581C823CA2007B8BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		380A2E5F1C823CA2007B8BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,8 +59,12 @@
 		384E1F931C85AA60009B8A93 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		38F5F1761C828422007568EC /* MessageListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageListController.swift; sourceTree = "<group>"; };
 		38F5F17A1C82B4E3007568EC /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
-		3AD3FAFDFCDCC9A7B7193ED1 /* Pods-rvftimeIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rvftimeIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rvftimeIOS/Pods-rvftimeIOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C03EDC46FEF1E9869CFBE7F2 /* Pods-rvftimeIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rvftimeIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-rvftimeIOS/Pods-rvftimeIOS.release.xcconfig"; sourceTree = "<group>"; };
+		3A0783794D3E49FBA4B05FFE /* Pods-rvftimeIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rvftimeIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rvftimeIOSTests/Pods-rvftimeIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F07A152605E92BCCA906DD8 /* Pods-rvftimeIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rvftimeIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rvftimeIOSUITests/Pods-rvftimeIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84FB1A6A1E34CE0200F2E515 /* SummaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryVC.swift; sourceTree = "<group>"; };
+		CE36A32AAE6DD7BDA1BB07F8 /* Pods-rvftimeIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rvftimeIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rvftimeIOSUITests/Pods-rvftimeIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFF9352143D2F3BA45BBC04D /* Pods-rvftimeIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rvftimeIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-rvftimeIOS/Pods-rvftimeIOS.release.xcconfig"; sourceTree = "<group>"; };
+		D469D839193A5D28140E9E0D /* Pods_rvftimeIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rvftimeIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE2022315B5BEA5DB6C0FBB /* Pods_rvftimeIOS.framework in Frameworks */,
+				AB9339D4A56A2C976D65063E /* Pods_rvftimeIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595FE6F21FC59B0FE4302214 /* Pods_rvftimeIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56D666372C49D91DDA9F115 /* Pods_rvftimeIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F7656582726C7FB890696BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B8D96A421C0E0804EA5FBD2 /* Pods-rvftimeIOS.debug.xcconfig */,
+				CFF9352143D2F3BA45BBC04D /* Pods-rvftimeIOS.release.xcconfig */,
+				3A0783794D3E49FBA4B05FFE /* Pods-rvftimeIOSTests.debug.xcconfig */,
+				0A5B704615114FA196232F18 /* Pods-rvftimeIOSTests.release.xcconfig */,
+				6F07A152605E92BCCA906DD8 /* Pods-rvftimeIOSUITests.debug.xcconfig */,
+				CE36A32AAE6DD7BDA1BB07F8 /* Pods-rvftimeIOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		380A2E4C1C823CA2007B8BCB = {
 			isa = PBXGroup;
 			children = (
@@ -90,8 +115,8 @@
 				380A2E6E1C823CA2007B8BCB /* rvftimeIOSTests */,
 				380A2E791C823CA2007B8BCB /* rvftimeIOSUITests */,
 				380A2E561C823CA2007B8BCB /* Products */,
-				8310475B02DDDC8A031AF919 /* Pods */,
-				4AB7BAF091131DE1C1C68F46 /* Frameworks */,
+				2F7656582726C7FB890696BA /* Pods */,
+				B565F5064040C217F44A0513 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +141,7 @@
 				38F5F1761C828422007568EC /* MessageListController.swift */,
 				38F5F17A1C82B4E3007568EC /* DetailTableViewController.swift */,
 				384E1F931C85AA60009B8A93 /* SettingsController.swift */,
+				84FB1A6A1E34CE0200F2E515 /* SummaryVC.swift */,
 			);
 			path = rvftimeIOS;
 			sourceTree = "<group>";
@@ -138,21 +164,14 @@
 			path = rvftimeIOSUITests;
 			sourceTree = "<group>";
 		};
-		4AB7BAF091131DE1C1C68F46 /* Frameworks */ = {
+		B565F5064040C217F44A0513 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				048D496CCE999661426FFDA1 /* Pods_rvftimeIOS.framework */,
+				02B9CBCDD3D3B78A26FE5CBA /* Pods_rvftimeIOS.framework */,
+				10DE184B707357F101036497 /* Pods_rvftimeIOSTests.framework */,
+				D469D839193A5D28140E9E0D /* Pods_rvftimeIOSUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8310475B02DDDC8A031AF919 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3AD3FAFDFCDCC9A7B7193ED1 /* Pods-rvftimeIOS.debug.xcconfig */,
-				C03EDC46FEF1E9869CFBE7F2 /* Pods-rvftimeIOS.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,12 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 380A2E7F1C823CA2007B8BCB /* Build configuration list for PBXNativeTarget "rvftimeIOS" */;
 			buildPhases = (
-				665058C540B7DC91027A4283 /* Check Pods Manifest.lock */,
+				F5411CBDECCAF5BE9DA0ED39 /* [CP] Check Pods Manifest.lock */,
 				380A2E511C823CA2007B8BCB /* Sources */,
 				380A2E521C823CA2007B8BCB /* Frameworks */,
 				380A2E531C823CA2007B8BCB /* Resources */,
-				CCF52EEA5A4F65A988D0E68C /* Embed Pods Frameworks */,
-				DA0B4EAC9CED4B9012FD0ABD /* Copy Pods Resources */,
+				5DE31DD165CD3D8BB33D26BA /* [CP] Embed Pods Frameworks */,
+				728100F1EE64B4782433F594 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 380A2E821C823CA2007B8BCB /* Build configuration list for PBXNativeTarget "rvftimeIOSTests" */;
 			buildPhases = (
+				00A8D2547A5ECF68EE773837 /* [CP] Check Pods Manifest.lock */,
 				380A2E671C823CA2007B8BCB /* Sources */,
 				380A2E681C823CA2007B8BCB /* Frameworks */,
 				380A2E691C823CA2007B8BCB /* Resources */,
+				DD4257AE8FE98C953781A503 /* [CP] Embed Pods Frameworks */,
+				6A23EA1B062F2A21675B18F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 380A2E851C823CA2007B8BCB /* Build configuration list for PBXNativeTarget "rvftimeIOSUITests" */;
 			buildPhases = (
+				18E12ADD285BB1A399FF73C3 /* [CP] Check Pods Manifest.lock */,
 				380A2E721C823CA2007B8BCB /* Sources */,
 				380A2E731C823CA2007B8BCB /* Frameworks */,
 				380A2E741C823CA2007B8BCB /* Resources */,
+				4EB5774D52E931758557111A /* [CP] Embed Pods Frameworks */,
+				F6A11D8C9CBCCCBEC48DE184 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +251,7 @@
 				TargetAttributes = {
 					380A2E541C823CA2007B8BCB = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5QGNL33W3J;
 					};
 					380A2E6A1C823CA2007B8BCB = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -285,29 +311,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		665058C540B7DC91027A4283 /* Check Pods Manifest.lock */ = {
+		00A8D2547A5ECF68EE773837 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		CCF52EEA5A4F65A988D0E68C /* Embed Pods Frameworks */ = {
+		18E12ADD285BB1A399FF73C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB5774D52E931758557111A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rvftimeIOSUITests/Pods-rvftimeIOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE31DD165CD3D8BB33D26BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,19 +371,79 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rvftimeIOS/Pods-rvftimeIOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DA0B4EAC9CED4B9012FD0ABD /* Copy Pods Resources */ = {
+		6A23EA1B062F2A21675B18F1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rvftimeIOSTests/Pods-rvftimeIOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		728100F1EE64B4782433F594 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rvftimeIOS/Pods-rvftimeIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD4257AE8FE98C953781A503 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rvftimeIOSTests/Pods-rvftimeIOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5411CBDECCAF5BE9DA0ED39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A11D8C9CBCCCBEC48DE184 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rvftimeIOSUITests/Pods-rvftimeIOSUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -337,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FB1A6B1E34CE0200F2E515 /* SummaryVC.swift in Sources */,
 				384E1F941C85AA60009B8A93 /* SettingsController.swift in Sources */,
 				38F5F1771C828422007568EC /* MessageListController.swift in Sources */,
 				38F5F17B1C82B4E3007568EC /* DetailTableViewController.swift in Sources */,
@@ -480,32 +597,37 @@
 		};
 		380A2E801C823CA2007B8BCB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD3FAFDFCDCC9A7B7193ED1 /* Pods-rvftimeIOS.debug.xcconfig */;
+			baseConfigurationReference = 2B8D96A421C0E0804EA5FBD2 /* Pods-rvftimeIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = rvftimeIcon;
+				DEVELOPMENT_TEAM = 5QGNL33W3J;
 				INFOPLIST_FILE = rvftimeIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rvftime.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		380A2E811C823CA2007B8BCB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03EDC46FEF1E9869CFBE7F2 /* Pods-rvftimeIOS.release.xcconfig */;
+			baseConfigurationReference = CFF9352143D2F3BA45BBC04D /* Pods-rvftimeIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = rvftimeIcon;
+				DEVELOPMENT_TEAM = 5QGNL33W3J;
 				INFOPLIST_FILE = rvftimeIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rvftime.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		380A2E831C823CA2007B8BCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0783794D3E49FBA4B05FFE /* Pods-rvftimeIOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = rvftimeIOSTests/Info.plist;
@@ -518,6 +640,7 @@
 		};
 		380A2E841C823CA2007B8BCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5B704615114FA196232F18 /* Pods-rvftimeIOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = rvftimeIOSTests/Info.plist;
@@ -530,6 +653,7 @@
 		};
 		380A2E861C823CA2007B8BCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F07A152605E92BCCA906DD8 /* Pods-rvftimeIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = rvftimeIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -542,6 +666,7 @@
 		};
 		380A2E871C823CA2007B8BCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE36A32AAE6DD7BDA1BB07F8 /* Pods-rvftimeIOSUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = rvftimeIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

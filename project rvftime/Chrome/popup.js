@@ -9,7 +9,7 @@ $('#loginBtn').on(
     'click', function() {
         if ( $( "#emailField" ).val() != "" && $( "#pwField" ).val() != "") {
         $.ajax({
-            url: 'http://localhost/login',
+            url: 'http://52.25.225.131/login',
             type: 'post',
             data: {
                 email:  $( "#emailField" ).val(), 

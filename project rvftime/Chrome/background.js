@@ -34,7 +34,7 @@ function syncChromeData(userChromeId) {
                     }
                 );
                 $.ajax({
-                    url: 'http://localhost/chromeSync',
+                    url: 'http://52.25.225.131/chromeSync',
                     type: 'post',
                     data: {
                         syncData

@@ -1,0 +1,6 @@
+framework module Pods_rvftimeIOSUITests {
+  umbrella header "Pods-rvftimeIOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

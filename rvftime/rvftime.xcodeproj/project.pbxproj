@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7919F4311E346D6E00822B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919F4301E346D6E00822B2A /* AppDelegate.swift */; };
+		7919F4331E346D6E00822B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919F4321E346D6E00822B2A /* ViewController.swift */; };
+		7919F4361E346D6E00822B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7919F4341E346D6E00822B2A /* Main.storyboard */; };
+		7919F4381E346D6E00822B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7919F4371E346D6E00822B2A /* Assets.xcassets */; };
+		7919F43B1E346D6E00822B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7919F4391E346D6E00822B2A /* LaunchScreen.storyboard */; };
+		7919F4401E346D6E00822B2A /* rvftime WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7919F43F1E346D6E00822B2A /* rvftime WatchKit App.app */; };
+		7919F4461E346D6E00822B2A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7919F4441E346D6E00822B2A /* Interface.storyboard */; };
+		7919F4481E346D6E00822B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7919F4471E346D6E00822B2A /* Assets.xcassets */; };
+		7919F44F1E346D6E00822B2A /* rvftime WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7919F44E1E346D6E00822B2A /* rvftime WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7919F4561E346D6E00822B2A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919F4551E346D6E00822B2A /* InterfaceController.swift */; };
+		7919F4581E346D6E00822B2A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919F4571E346D6E00822B2A /* ExtensionDelegate.swift */; };
+		7919F45A1E346D6E00822B2A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919F4591E346D6E00822B2A /* NotificationController.swift */; };
+		7919F45C1E346D6E00822B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7919F45B1E346D6E00822B2A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7919F4411E346D6E00822B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7919F4251E346D6E00822B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7919F43E1E346D6E00822B2A;
+			remoteInfo = "rvftime WatchKit App";
+		};
+		7919F4501E346D6E00822B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7919F4251E346D6E00822B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7919F44D1E346D6E00822B2A;
+			remoteInfo = "rvftime WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7919F4631E346D6E00822B2A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7919F44F1E346D6E00822B2A /* rvftime WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7919F4671E346D6E00822B2A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7919F4401E346D6E00822B2A /* rvftime WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7919F42D1E346D6E00822B2A /* rvftime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rvftime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7919F4301E346D6E00822B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7919F4321E346D6E00822B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7919F4351E346D6E00822B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7919F4371E346D6E00822B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7919F43A1E346D6E00822B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7919F43C1E346D6E00822B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7919F43F1E346D6E00822B2A /* rvftime WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rvftime WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7919F4451E346D6E00822B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7919F4471E346D6E00822B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7919F4491E346D6E00822B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7919F44E1E346D6E00822B2A /* rvftime WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "rvftime WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7919F4541E346D6E00822B2A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7919F4551E346D6E00822B2A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7919F4571E346D6E00822B2A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7919F4591E346D6E00822B2A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7919F45B1E346D6E00822B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7919F45D1E346D6E00822B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7919F42A1E346D6E00822B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7919F44B1E346D6E00822B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7919F4241E346D6E00822B2A = {
+			isa = PBXGroup;
+			children = (
+				7919F42F1E346D6E00822B2A /* rvftime */,
+				7919F4431E346D6E00822B2A /* rvftime WatchKit App */,
+				7919F4521E346D6E00822B2A /* rvftime WatchKit Extension */,
+				7919F42E1E346D6E00822B2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7919F42E1E346D6E00822B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7919F42D1E346D6E00822B2A /* rvftime.app */,
+				7919F43F1E346D6E00822B2A /* rvftime WatchKit App.app */,
+				7919F44E1E346D6E00822B2A /* rvftime WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7919F42F1E346D6E00822B2A /* rvftime */ = {
+			isa = PBXGroup;
+			children = (
+				7919F4301E346D6E00822B2A /* AppDelegate.swift */,
+				7919F4321E346D6E00822B2A /* ViewController.swift */,
+				7919F4341E346D6E00822B2A /* Main.storyboard */,
+				7919F4371E346D6E00822B2A /* Assets.xcassets */,
+				7919F4391E346D6E00822B2A /* LaunchScreen.storyboard */,
+				7919F43C1E346D6E00822B2A /* Info.plist */,
+			);
+			path = rvftime;
+			sourceTree = "<group>";
+		};
+		7919F4431E346D6E00822B2A /* rvftime WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7919F4441E346D6E00822B2A /* Interface.storyboard */,
+				7919F4471E346D6E00822B2A /* Assets.xcassets */,
+				7919F4491E346D6E00822B2A /* Info.plist */,
+			);
+			path = "rvftime WatchKit App";
+			sourceTree = "<group>";
+		};
+		7919F4521E346D6E00822B2A /* rvftime WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7919F4551E346D6E00822B2A /* InterfaceController.swift */,
+				7919F4571E346D6E00822B2A /* ExtensionDelegate.swift */,
+				7919F4591E346D6E00822B2A /* NotificationController.swift */,
+				7919F45B1E346D6E00822B2A /* Assets.xcassets */,
+				7919F45D1E346D6E00822B2A /* Info.plist */,
+				7919F4531E346D6E00822B2A /* Supporting Files */,
+			);
+			path = "rvftime WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7919F4531E346D6E00822B2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7919F4541E346D6E00822B2A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7919F42C1E346D6E00822B2A /* rvftime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7919F4681E346D6E00822B2A /* Build configuration list for PBXNativeTarget "rvftime" */;
+			buildPhases = (
+				7919F4291E346D6E00822B2A /* Sources */,
+				7919F42A1E346D6E00822B2A /* Frameworks */,
+				7919F42B1E346D6E00822B2A /* Resources */,
+				7919F4671E346D6E00822B2A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7919F4421E346D6E00822B2A /* PBXTargetDependency */,
+			);
+			name = rvftime;
+			productName = rvftime;
+			productReference = 7919F42D1E346D6E00822B2A /* rvftime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7919F43E1E346D6E00822B2A /* rvftime WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7919F4641E346D6E00822B2A /* Build configuration list for PBXNativeTarget "rvftime WatchKit App" */;
+			buildPhases = (
+				7919F43D1E346D6E00822B2A /* Resources */,
+				7919F4631E346D6E00822B2A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7919F4511E346D6E00822B2A /* PBXTargetDependency */,
+			);
+			name = "rvftime WatchKit App";
+			productName = "rvftime WatchKit App";
+			productReference = 7919F43F1E346D6E00822B2A /* rvftime WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7919F44D1E346D6E00822B2A /* rvftime WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7919F4601E346D6E00822B2A /* Build configuration list for PBXNativeTarget "rvftime WatchKit Extension" */;
+			buildPhases = (
+				7919F44A1E346D6E00822B2A /* Sources */,
+				7919F44B1E346D6E00822B2A /* Frameworks */,
+				7919F44C1E346D6E00822B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rvftime WatchKit Extension";
+			productName = "rvftime WatchKit Extension";
+			productReference = 7919F44E1E346D6E00822B2A /* rvftime WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7919F4251E346D6E00822B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "git rekt";
+				TargetAttributes = {
+					7919F42C1E346D6E00822B2A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7919F43E1E346D6E00822B2A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7919F44D1E346D6E00822B2A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7919F4281E346D6E00822B2A /* Build configuration list for PBXProject "rvftime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7919F4241E346D6E00822B2A;
+			productRefGroup = 7919F42E1E346D6E00822B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7919F42C1E346D6E00822B2A /* rvftime */,
+				7919F43E1E346D6E00822B2A /* rvftime WatchKit App */,
+				7919F44D1E346D6E00822B2A /* rvftime WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7919F42B1E346D6E00822B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7919F43B1E346D6E00822B2A /* LaunchScreen.storyboard in Resources */,
+				7919F4381E346D6E00822B2A /* Assets.xcassets in Resources */,
+				7919F4361E346D6E00822B2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7919F43D1E346D6E00822B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7919F4481E346D6E00822B2A /* Assets.xcassets in Resources */,
+				7919F4461E346D6E00822B2A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7919F44C1E346D6E00822B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7919F45C1E346D6E00822B2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7919F4291E346D6E00822B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7919F4331E346D6E00822B2A /* ViewController.swift in Sources */,
+				7919F4311E346D6E00822B2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7919F44A1E346D6E00822B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7919F45A1E346D6E00822B2A /* NotificationController.swift in Sources */,
+				7919F4581E346D6E00822B2A /* ExtensionDelegate.swift in Sources */,
+				7919F4561E346D6E00822B2A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7919F4421E346D6E00822B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7919F43E1E346D6E00822B2A /* rvftime WatchKit App */;
+			targetProxy = 7919F4411E346D6E00822B2A /* PBXContainerItemProxy */;
+		};
+		7919F4511E346D6E00822B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7919F44D1E346D6E00822B2A /* rvftime WatchKit Extension */;
+			targetProxy = 7919F4501E346D6E00822B2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7919F4341E346D6E00822B2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7919F4351E346D6E00822B2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7919F4391E346D6E00822B2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7919F43A1E346D6E00822B2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7919F4441E346D6E00822B2A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7919F4451E346D6E00822B2A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7919F45E1E346D6E00822B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7919F45F1E346D6E00822B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7919F4611E346D6E00822B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rvftime WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umich.gtpalmer.rvftime.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		7919F4621E346D6E00822B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rvftime WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umich.gtpalmer.rvftime.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		7919F4651E346D6E00822B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = rvftime_WatchKit_Extension;
+				INFOPLIST_FILE = "rvftime WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umich.gtpalmer.rvftime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		7919F4661E346D6E00822B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = rvftime_WatchKit_Extension;
+				INFOPLIST_FILE = "rvftime WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umich.gtpalmer.rvftime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		7919F4691E346D6E00822B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rvftime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umich.gtpalmer.rvftime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7919F46A1E346D6E00822B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rvftime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umich.gtpalmer.rvftime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7919F4281E346D6E00822B2A /* Build configuration list for PBXProject "rvftime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7919F45E1E346D6E00822B2A /* Debug */,
+				7919F45F1E346D6E00822B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7919F4601E346D6E00822B2A /* Build configuration list for PBXNativeTarget "rvftime WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7919F4611E346D6E00822B2A /* Debug */,
+				7919F4621E346D6E00822B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7919F4641E346D6E00822B2A /* Build configuration list for PBXNativeTarget "rvftime WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7919F4651E346D6E00822B2A /* Debug */,
+				7919F4661E346D6E00822B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7919F4681E346D6E00822B2A /* Build configuration list for PBXNativeTarget "rvftime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7919F4691E346D6E00822B2A /* Debug */,
+				7919F46A1E346D6E00822B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7919F4251E346D6E00822B2A /* Project object */;
+}

@@ -89,7 +89,7 @@ class SettingsController: UITableViewController {
                 let post:NSString = "{\"email\": \"\(username)\", \"password\": \"\(password)\"}"
                 NSLog("PostData: %@",post);
                 
-                let url:NSURL = NSURL(string:"http://192.168.0.12:8080/login")!
+                let url:NSURL = NSURL(string:"http://52.25.225.131/login")!
                 let postData:NSData = post.dataUsingEncoding(NSASCIIStringEncoding)!
                 let postLength:NSString = String( postData.length )
                 let request:NSMutableURLRequest = NSMutableURLRequest(URL: url)

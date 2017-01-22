@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="JC7-4C-99R">
+            <objects>
+                <notificationController id="IeW-IY-Zbm">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="xfG-y9-uEs"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="2hF-ll-pcl"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="xfG-y9-uEs" id="R1G-gg-9dI"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="rvftime_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView width="1" height="1" alignment="left" image="Icon" id="F0L-U2-UcY"/>
+                    </items>
+                    <connections>
+                        <segue destination="2Ue-cP-C7c" kind="relationship" relationship="nextPage" id="deG-qZ-IHU"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="gV6-kE-3tm">
+            <objects>
+                <controller id="2Ue-cP-C7c"/>
+            </objects>
+            <point key="canvasLocation" x="447" y="349"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory2" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="rvftime_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

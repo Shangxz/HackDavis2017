@@ -1,5 +1,5 @@
 {
-  "name": "rvftime",
+  "name": "rvftime1",
   "version": "0.0.1",
   "dependencies" : {
     "passport" : "~0.1.17",

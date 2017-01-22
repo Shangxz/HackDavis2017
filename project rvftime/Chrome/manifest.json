@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "rvftime extension",
+  "description": "rvftime extension for chrome browser",
+  "version": "1.1",
+  "background": {
+    "scripts": ["jquery.min.js", "background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "logo48.png",
+    "default_popup": "popup.html"
+  },
+  "icons": { "16": "logo16.png",
+           "48": "logo48.png",
+          "128": "logo128.png" },
+  "permissions": [
+    "storage",
+    "tabs",
+    "unlimitedStorage",
+    "http://localhost:8080/",
+    "http://rvftime.com/",
+    "https://ajax.googleapis.com/"
+  ]
+}

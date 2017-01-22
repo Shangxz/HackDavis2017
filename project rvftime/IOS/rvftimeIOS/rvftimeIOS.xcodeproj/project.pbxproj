@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE2022315B5BEA5DB6C0FBB /* Pods_rvftimeIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048D496CCE999661426FFDA1 /* Pods_rvftimeIOS.framework */; };
+		380A2E591C823CA2007B8BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A2E581C823CA2007B8BCB /* AppDelegate.swift */; };
+		380A2E601C823CA2007B8BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380A2E5E1C823CA2007B8BCB /* Main.storyboard */; };
+		380A2E621C823CA2007B8BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380A2E611C823CA2007B8BCB /* Assets.xcassets */; };
+		380A2E651C823CA2007B8BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380A2E631C823CA2007B8BCB /* LaunchScreen.storyboard */; };
+		380A2E701C823CA2007B8BCB /* rvftimeIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A2E6F1C823CA2007B8BCB /* rvftimeIOSTests.swift */; };
+		380A2E7B1C823CA2007B8BCB /* rvftimeIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380A2E7A1C823CA2007B8BCB /* rvftimeIOSUITests.swift */; };
+		384E1F941C85AA60009B8A93 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384E1F931C85AA60009B8A93 /* SettingsController.swift */; };
+		38F5F1771C828422007568EC /* MessageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F5F1761C828422007568EC /* MessageListController.swift */; };
+		38F5F17B1C82B4E3007568EC /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F5F17A1C82B4E3007568EC /* DetailTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		380A2E6C1C823CA2007B8BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 380A2E4D1C823CA2007B8BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 380A2E541C823CA2007B8BCB;
+			remoteInfo = rvftimeIOS;
+		};
+		380A2E771C823CA2007B8BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 380A2E4D1C823CA2007B8BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 380A2E541C823CA2007B8BCB;
+			remoteInfo = rvftimeIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048D496CCE999661426FFDA1 /* Pods_rvftimeIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rvftimeIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		380A2E551C823CA2007B8BCB /* rvftimeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rvftimeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		380A2E581C823CA2007B8BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		380A2E5F1C823CA2007B8BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		380A2E611C823CA2007B8BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		380A2E641C823CA2007B8BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		380A2E661C823CA2007B8BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380A2E6B1C823CA2007B8BCB /* rvftimeIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rvftimeIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		380A2E6F1C823CA2007B8BCB /* rvftimeIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rvftimeIOSTests.swift; sourceTree = "<group>"; };
+		380A2E711C823CA2007B8BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380A2E761C823CA2007B8BCB /* rvftimeIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rvftimeIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		380A2E7A1C823CA2007B8BCB /* rvftimeIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rvftimeIOSUITests.swift; sourceTree = "<group>"; };
+		380A2E7C1C823CA2007B8BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		384E1F931C85AA60009B8A93 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		38F5F1761C828422007568EC /* MessageListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageListController.swift; sourceTree = "<group>"; };
+		38F5F17A1C82B4E3007568EC /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		3AD3FAFDFCDCC9A7B7193ED1 /* Pods-rvftimeIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rvftimeIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rvftimeIOS/Pods-rvftimeIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C03EDC46FEF1E9869CFBE7F2 /* Pods-rvftimeIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rvftimeIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-rvftimeIOS/Pods-rvftimeIOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		380A2E521C823CA2007B8BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE2022315B5BEA5DB6C0FBB /* Pods_rvftimeIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380A2E681C823CA2007B8BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380A2E731C823CA2007B8BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380A2E4C1C823CA2007B8BCB = {
+			isa = PBXGroup;
+			children = (
+				380A2E571C823CA2007B8BCB /* rvftimeIOS */,
+				380A2E6E1C823CA2007B8BCB /* rvftimeIOSTests */,
+				380A2E791C823CA2007B8BCB /* rvftimeIOSUITests */,
+				380A2E561C823CA2007B8BCB /* Products */,
+				8310475B02DDDC8A031AF919 /* Pods */,
+				4AB7BAF091131DE1C1C68F46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		380A2E561C823CA2007B8BCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				380A2E551C823CA2007B8BCB /* rvftimeIOS.app */,
+				380A2E6B1C823CA2007B8BCB /* rvftimeIOSTests.xctest */,
+				380A2E761C823CA2007B8BCB /* rvftimeIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		380A2E571C823CA2007B8BCB /* rvftimeIOS */ = {
+			isa = PBXGroup;
+			children = (
+				380A2E581C823CA2007B8BCB /* AppDelegate.swift */,
+				380A2E5E1C823CA2007B8BCB /* Main.storyboard */,
+				380A2E611C823CA2007B8BCB /* Assets.xcassets */,
+				380A2E631C823CA2007B8BCB /* LaunchScreen.storyboard */,
+				380A2E661C823CA2007B8BCB /* Info.plist */,
+				38F5F1761C828422007568EC /* MessageListController.swift */,
+				38F5F17A1C82B4E3007568EC /* DetailTableViewController.swift */,
+				384E1F931C85AA60009B8A93 /* SettingsController.swift */,
+			);
+			path = rvftimeIOS;
+			sourceTree = "<group>";
+		};
+		380A2E6E1C823CA2007B8BCB /* rvftimeIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				380A2E6F1C823CA2007B8BCB /* rvftimeIOSTests.swift */,
+				380A2E711C823CA2007B8BCB /* Info.plist */,
+			);
+			path = rvftimeIOSTests;
+			sourceTree = "<group>";
+		};
+		380A2E791C823CA2007B8BCB /* rvftimeIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				380A2E7A1C823CA2007B8BCB /* rvftimeIOSUITests.swift */,
+				380A2E7C1C823CA2007B8BCB /* Info.plist */,
+			);
+			path = rvftimeIOSUITests;
+			sourceTree = "<group>";
+		};
+		4AB7BAF091131DE1C1C68F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048D496CCE999661426FFDA1 /* Pods_rvftimeIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8310475B02DDDC8A031AF919 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AD3FAFDFCDCC9A7B7193ED1 /* Pods-rvftimeIOS.debug.xcconfig */,
+				C03EDC46FEF1E9869CFBE7F2 /* Pods-rvftimeIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		380A2E541C823CA2007B8BCB /* rvftimeIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380A2E7F1C823CA2007B8BCB /* Build configuration list for PBXNativeTarget "rvftimeIOS" */;
+			buildPhases = (
+				665058C540B7DC91027A4283 /* Check Pods Manifest.lock */,
+				380A2E511C823CA2007B8BCB /* Sources */,
+				380A2E521C823CA2007B8BCB /* Frameworks */,
+				380A2E531C823CA2007B8BCB /* Resources */,
+				CCF52EEA5A4F65A988D0E68C /* Embed Pods Frameworks */,
+				DA0B4EAC9CED4B9012FD0ABD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rvftimeIOS;
+			productName = rvftimeIOS;
+			productReference = 380A2E551C823CA2007B8BCB /* rvftimeIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		380A2E6A1C823CA2007B8BCB /* rvftimeIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380A2E821C823CA2007B8BCB /* Build configuration list for PBXNativeTarget "rvftimeIOSTests" */;
+			buildPhases = (
+				380A2E671C823CA2007B8BCB /* Sources */,
+				380A2E681C823CA2007B8BCB /* Frameworks */,
+				380A2E691C823CA2007B8BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				380A2E6D1C823CA2007B8BCB /* PBXTargetDependency */,
+			);
+			name = rvftimeIOSTests;
+			productName = rvftimeIOSTests;
+			productReference = 380A2E6B1C823CA2007B8BCB /* rvftimeIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		380A2E751C823CA2007B8BCB /* rvftimeIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380A2E851C823CA2007B8BCB /* Build configuration list for PBXNativeTarget "rvftimeIOSUITests" */;
+			buildPhases = (
+				380A2E721C823CA2007B8BCB /* Sources */,
+				380A2E731C823CA2007B8BCB /* Frameworks */,
+				380A2E741C823CA2007B8BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				380A2E781C823CA2007B8BCB /* PBXTargetDependency */,
+			);
+			name = rvftimeIOSUITests;
+			productName = rvftimeIOSUITests;
+			productReference = 380A2E761C823CA2007B8BCB /* rvftimeIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		380A2E4D1C823CA2007B8BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mingyao;
+				TargetAttributes = {
+					380A2E541C823CA2007B8BCB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					380A2E6A1C823CA2007B8BCB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 380A2E541C823CA2007B8BCB;
+					};
+					380A2E751C823CA2007B8BCB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 380A2E541C823CA2007B8BCB;
+					};
+				};
+			};
+			buildConfigurationList = 380A2E501C823CA2007B8BCB /* Build configuration list for PBXProject "rvftimeIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 380A2E4C1C823CA2007B8BCB;
+			productRefGroup = 380A2E561C823CA2007B8BCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				380A2E541C823CA2007B8BCB /* rvftimeIOS */,
+				380A2E6A1C823CA2007B8BCB /* rvftimeIOSTests */,
+				380A2E751C823CA2007B8BCB /* rvftimeIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		380A2E531C823CA2007B8BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380A2E651C823CA2007B8BCB /* LaunchScreen.storyboard in Resources */,
+				380A2E621C823CA2007B8BCB /* Assets.xcassets in Resources */,
+				380A2E601C823CA2007B8BCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380A2E691C823CA2007B8BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380A2E741C823CA2007B8BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		665058C540B7DC91027A4283 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF52EEA5A4F65A988D0E68C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rvftimeIOS/Pods-rvftimeIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0B4EAC9CED4B9012FD0ABD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rvftimeIOS/Pods-rvftimeIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		380A2E511C823CA2007B8BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384E1F941C85AA60009B8A93 /* SettingsController.swift in Sources */,
+				38F5F1771C828422007568EC /* MessageListController.swift in Sources */,
+				38F5F17B1C82B4E3007568EC /* DetailTableViewController.swift in Sources */,
+				380A2E591C823CA2007B8BCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380A2E671C823CA2007B8BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380A2E701C823CA2007B8BCB /* rvftimeIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380A2E721C823CA2007B8BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380A2E7B1C823CA2007B8BCB /* rvftimeIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		380A2E6D1C823CA2007B8BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 380A2E541C823CA2007B8BCB /* rvftimeIOS */;
+			targetProxy = 380A2E6C1C823CA2007B8BCB /* PBXContainerItemProxy */;
+		};
+		380A2E781C823CA2007B8BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 380A2E541C823CA2007B8BCB /* rvftimeIOS */;
+			targetProxy = 380A2E771C823CA2007B8BCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		380A2E5E1C823CA2007B8BCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380A2E5F1C823CA2007B8BCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		380A2E631C823CA2007B8BCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380A2E641C823CA2007B8BCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		380A2E7D1C823CA2007B8BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		380A2E7E1C823CA2007B8BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		380A2E801C823CA2007B8BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD3FAFDFCDCC9A7B7193ED1 /* Pods-rvftimeIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = rvftimeIcon;
+				INFOPLIST_FILE = rvftimeIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rvftime.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		380A2E811C823CA2007B8BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03EDC46FEF1E9869CFBE7F2 /* Pods-rvftimeIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = rvftimeIcon;
+				INFOPLIST_FILE = rvftimeIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rvftime.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		380A2E831C823CA2007B8BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = rvftimeIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rvftime.rvftimeIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rvftimeIOS.app/rvftimeIOS";
+			};
+			name = Debug;
+		};
+		380A2E841C823CA2007B8BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = rvftimeIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rvftime.rvftimeIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rvftimeIOS.app/rvftimeIOS";
+			};
+			name = Release;
+		};
+		380A2E861C823CA2007B8BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = rvftimeIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rvftime.rvftimeIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = rvftimeIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		380A2E871C823CA2007B8BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = rvftimeIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rvftime.rvftimeIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = rvftimeIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		380A2E501C823CA2007B8BCB /* Build configuration list for PBXProject "rvftimeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380A2E7D1C823CA2007B8BCB /* Debug */,
+				380A2E7E1C823CA2007B8BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380A2E7F1C823CA2007B8BCB /* Build configuration list for PBXNativeTarget "rvftimeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380A2E801C823CA2007B8BCB /* Debug */,
+				380A2E811C823CA2007B8BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380A2E821C823CA2007B8BCB /* Build configuration list for PBXNativeTarget "rvftimeIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380A2E831C823CA2007B8BCB /* Debug */,
+				380A2E841C823CA2007B8BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380A2E851C823CA2007B8BCB /* Build configuration list for PBXNativeTarget "rvftimeIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380A2E861C823CA2007B8BCB /* Debug */,
+				380A2E871C823CA2007B8BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 380A2E4D1C823CA2007B8BCB /* Project object */;
+}

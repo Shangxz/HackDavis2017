@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>rvftime chrome extension</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      #loginForm {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+    </style>
+     <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="loginForm">
+        <h2>rvftime login</h2>
+        <form>
+        email: <input id="emailField" type="text" name="email" value=""><br>
+        password: <input id="pwField" type="password" name="password" value="bob12321"><br>
+        <button id="loginBtn" type="button">Login</button>
+        </form>
+    </div>
+    <div id="staticFrame" style="display:none">
+        <h2>Data Control</h2>
+        <button id="logoutBtn" type="button">Logout</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+framework module Pods_rvftimeIOS {
+  umbrella header "Pods-rvftimeIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

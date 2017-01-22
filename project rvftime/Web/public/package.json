@@ -1,0 +1,41 @@
+{
+  "name": "rvftime",
+  "version": "0.0.1",
+  "dependencies" : {
+    "passport" : "~0.1.17",
+    "passport-local" : "~0.1.6",
+    "passport-facebook" : "~1.0.2",
+    "passport-twitter" : "~1.0.2",
+    "passport-google-oauth" : "~0.1.5",
+    "connect-flash" : "~0.1.1",
+    "bcrypt-nodejs" : "latest",
+
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "express-session": "~1.0.0",
+
+
+    "angular2": "2.0.0-beta.11",
+    "systemjs": "0.19.24",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.6.4",
+
+    "jquery":"*",
+    "tether": "*",
+    "font-awesome": "latest",
+    "particles.js": "latest",
+    "chart.js" : "latest"
+  },
+
+  "devDependencies": {
+    "bootstrap": "4.0.0-alpha.2",
+    "concurrently": "^1.0.0",
+    "typescript": "^1.8.9",
+    "typings":"^0.7.9"
+  }
+}

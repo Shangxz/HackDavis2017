@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+
+use_frameworks!
+
+target 'rvftimeIOS' do
+  pod 'PebbleKit', :path => 'PebbleKit.podspec'
+  xcodeproj 'rvftimeIOS.xcodeproj'
+  pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+  pod 'SwiftSpinner'
+end
+
+target 'rvftimeIOSTests' do
+
+end
+
+target 'rvftimeIOSUITests' do
+
+end
+

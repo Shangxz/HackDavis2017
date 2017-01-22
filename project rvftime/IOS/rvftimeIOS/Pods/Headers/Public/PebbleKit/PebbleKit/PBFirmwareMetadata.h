@@ -1,0 +1,1 @@
+../../../../../PebbleKit.framework/Headers/PBFirmwareMetadata.h
